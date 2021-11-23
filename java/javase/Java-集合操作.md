@@ -116,16 +116,10 @@ public class RemoveTest {
   //          map.remove(String.valueOf(val));
   //      }
       
-        for (Integer val : map.values().toArray(new Integer[0])) {  // 使用新生成的数组对象进行迭代,就不会报错
+        for (Integer val : map.values().toArray(new Integer[0])) {  // 使用新生成的数组对象进行迭代
             map.remove(String.valueOf(val));
         }
     }
 }
 ```
-
-
-
-
-
-
 
